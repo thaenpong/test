@@ -17,6 +17,9 @@ export default function SigninButton({}: Props) {
         <p>
           <Link href={"/profile/"}>Profile</Link>
         </p>
+        <p>
+          <Link href={"/profile/csr/"}>Profile CSR</Link>
+        </p>
         <p>Name:{session.user.name}</p>
 
         <button onClick={() => signOut()}>SignOut</button>
